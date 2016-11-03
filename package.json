@@ -1,0 +1,34 @@
+{
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Avraham Shalev",
+    "email": "avraha,ram.shalev@gmail.com"
+  },
+  "name": "node-red-contrib-iot-virtual-device",
+  "description": "A set of nodes to help you create simulated IoT devices connected to IBM Watson IoT Platform.",
+  "version": "0.1.0",
+  "keywords": [
+    "node-red",
+    "IoT",
+    "Watson",
+    "Virtual devices",
+    "Simulation",
+    "Simulated"
+  ],
+  "dependencies": {
+    "underscore": "1.8.3",
+    "chance": "1.0.4"
+  },
+  "license": "Apache",
+  "node-red": {
+    "nodes": {
+      "start virtual device": "nodes/15virtual-device-start.js",
+      "stop virtual device": "nodes/18virtual-device-stop.js",
+      "device function": "nodes/30virtual-device-function.js",
+      "generate event": "nodes/40virtual-device-gen-event.js",
+      "set properties": "nodes/50virtual-device-set-properties.js",
+      "device listener": "nodes/60virtual-device-monitor.js",
+      "Device Schema": "nodes/virtual-device-schema.js"
+    }
+  }
+}
