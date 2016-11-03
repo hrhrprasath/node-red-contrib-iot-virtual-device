@@ -2,7 +2,7 @@
   "readmeFilename": "README.md",
   "author": {
     "name": "Avraham Shalev",
-    "email": "avraha,ram.shalev@gmail.com"
+    "email": "avraha.shalev@il.ibm.com"
   },
   "name": "node-red-contrib-iot-virtual-device",
   "description": "A set of nodes to help you create simulated IoT devices connected to IBM Watson IoT Platform.",
